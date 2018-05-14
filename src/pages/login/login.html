@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list no-lines>
+
+      <form>
+
+          <ion-item>
+              <ion-label floating>Mobile Number :</ion-label>
+              <ion-input  type="tel"></ion-input>
+          </ion-item>
+
+          <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input  type="password"></ion-input>
+          </ion-item>
+
+
+  <button ion-button round full (click)="openpro()">Sign in</button>
+</form>
+  <h3>New User !</h3>
+  <button ion-button round full (click)="openreg()">Register Here</button>
+</ion-list>
+</ion-content>

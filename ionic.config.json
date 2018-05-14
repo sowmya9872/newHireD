@@ -1,0 +1,8 @@
+{
+  "name": "locate",
+  "app_id": "1a30c06b",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

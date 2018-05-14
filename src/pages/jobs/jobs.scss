@@ -1,0 +1,31 @@
+page-jobs {
+  .item-select {
+    width: 100%; /* Or whatever you'd like the width to be */
+  }
+
+  .item-select select {
+    left: 0;
+  }
+
+  .splash-logo {
+    margin: auto;
+    background: url('../assets/img/company.jpg') repeat transparent;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+	}
+  .splash-logo1 {
+    margin: auto;
+    background: url('../assets/img/cmp.jpg') repeat transparent;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+  }
+  .splash-logo2 {
+    margin: auto;
+    background: url('../assets/img/elec3.jpg') repeat transparent;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+  }
+}

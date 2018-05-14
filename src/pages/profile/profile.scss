@@ -1,0 +1,35 @@
+page-profile {
+h4{
+  font-variant: small-caps;
+}
+
+  .profile{
+      position: relative;
+      height: 200px;
+    }
+    .profile-image{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .profile-image img{
+      height: 90%;
+      width: 90%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .profile-image p{
+      text-align:center ;
+      font-size:0.5cm!important ;
+      color:#4a4f4f ;
+    }
+    .newColor{
+      background-color: #2fa29c!important;
+    //  background-color: transparent!important;#39ac73#339966
+    }
+    ion-list button {
+      color: #fff!important;
+      background-color: transparent!important;
+    }
+}

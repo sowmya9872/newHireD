@@ -1,0 +1,51 @@
+page-home {
+  .main-bg {
+  /**  position: relative;
+    background: url('../assets/img/bg.jpg') no-repeat transparent;
+    background-size: cover;
+    height: 45%;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: animatedBackground 40s linear infinite;
+
+  }
+
+  @keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+    */
+    position: relative;
+    height: 40%;
+    z-index: 1;
+  }
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+
+  }
+
+  .card-title {
+    position: absolute;
+    top: 50%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+
+
+}
+}
